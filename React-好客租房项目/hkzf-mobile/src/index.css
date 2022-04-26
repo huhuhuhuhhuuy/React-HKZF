@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  font-family:'Microsoft YaHei' -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  height: 100%;
+  color: black;
+  background-color: #fff;
+}
+/* 百度api样式设置 */
+html,body,#root,.App{
+height: 100%;
+}
+body{
+  margin: 0px;
+  padding:0px;
+}
+*{ 
+  /* 元素的总高度和宽度包含内边距和边框(padding 与 border) : */
+  box-sizing: border-box;
+  /*/防止轮播图组件报错 / */
+
+  touch-action:pan-y;
+  
+  
+ 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p,ul{
+  margin: 0;
+}

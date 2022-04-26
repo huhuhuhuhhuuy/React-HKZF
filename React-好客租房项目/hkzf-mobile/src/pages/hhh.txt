@@ -1,0 +1,4 @@
+<Route path='index' element={<Index/>}/> 
+<Route path='list' element={<List/>}/> 
+<Route path='news' element={<News/>}/> 
+<Route path='profile' element={<Profile/>}/> 
