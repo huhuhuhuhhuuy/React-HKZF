@@ -1,0 +1,36 @@
+.search-box{
+    position: absolute;
+    width: 100%;
+    top:25px;
+    padding: 0 10px;
+    .search{
+        flex:1;
+        height:34px;
+        margin: 0 10px;
+        padding:5px 5px 5px 8px;
+        border-radius: 3px;
+        background-color:#fff ;
+        .hh{
+          font-size: 20px;
+          color: #9c9fa1;
+          margin: 0 10px;
+        }
+        .sanjiao{
+          font-size: 10px;
+          color: #9c9fa1;
+        }
+        .fdj{
+          font-size: 18px;
+          color: #303234;
+        }
+        .text{
+          color: #9c9fa1;
+        }
+        
+    }
+    .db{
+      color:#fff;
+      font-size: 30px;
+      font-weight: 600;
+    }
+}

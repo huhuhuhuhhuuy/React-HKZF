@@ -4,6 +4,8 @@ import {Link}from 'react-router-dom'
 import './index.scss'
  //import styles from './index.module.css'
 import NavHeader from '../../components/NavHeader'
+import HouseItem from '../../components/HouseItem';
+import { BASE_URL } from '../../utils/url';
 
 export default class Map extends Component {
     constructor(props) {
@@ -232,14 +234,21 @@ export default class Map extends Component {
     //渲染完成后才调用的钩子函数
     componentDidMount(){ 
         this.initMap();
-
-
-
-
-
-        
+     
     }
 
+    //封装渲染房屋列表的方法
+    renderHousesList(){
+        return this.state.houseList.map(item=>{
+            <HouseItem
+            key={item.houseCode}
+            src={BASE_URL+item.houseImg}
+            title={item.title}
+            desc={item.desc}
+            tags={item.tags}
+            price={item.price}/>
+        })
+    }
 
     //className={styles.map}
     render() {
@@ -259,7 +268,6 @@ export default class Map extends Component {
                 <i className='iconfont icon-back'  />
                 <h1 className='listTitle'>房屋列表</h1>
                 <Link className='titleMore' to='/home/list'>更多房源</Link>
-                
                 </div>
                 <div className='houseItems'>
                 {/* 房屋结构 */}

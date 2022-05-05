@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 import{Link, Outlet, Route,Routes} from 'react-router-dom'
 import{createBrowserHistory}from 'history'
 import { TabBar } from 'antd-mobile-v2';
-
+//组件自己的样式文件
+import './index.css'
 import Index from '../Index';
 import News from '../News';
 import List from '../List';
 import Profile from '../MY';
-//组件自己的样式文件
-import './index.css'
+
 
 //重构tabBar
 const tabItems=[

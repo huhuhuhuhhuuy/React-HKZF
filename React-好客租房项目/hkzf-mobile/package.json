@@ -19,11 +19,14 @@
     "react-virtualized": "^9.22.3",
     "web-vitals": "^2.1.4"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+
+    
   },
   "eslintConfig": {
     "extends": [
@@ -31,12 +34,15 @@
       "react-app/jest"
     ]
   },
+ 
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
+
+    
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -46,6 +52,7 @@
   "devDependencies": {
     "babel-plugin-import": "^1.13.5",
     "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
     "react-router-dom": "^5.2.0",
@@ -55,4 +62,7 @@
     "brand-primary": "red",
     "color-text-base": "#96b"
   }
+
+  
+  
 }

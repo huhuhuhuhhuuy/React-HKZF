@@ -5,7 +5,7 @@ export default class List extends Component {
   render() {
     return (
       <div>
-      List～
+      我的个人页面～
       </div>
     )
   }

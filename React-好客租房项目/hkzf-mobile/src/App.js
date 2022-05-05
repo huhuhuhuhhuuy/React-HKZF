@@ -7,6 +7,7 @@ import {Button} from 'antd-mobile-v2'
 import Home from './pages/Home'
 import CityList from './pages/CityList'
 import Map from './pages/Map'
+import Login from './pages/Login'
 import News from'./pages/News'
 import Index from './pages/Index'
 import Profile from './pages/MY'
@@ -37,6 +38,8 @@ export default class App extends Component {
         <Route path='/citylist'  component={CityList}/>
         <Route path='/map' component={Map}/>
         
+        {/* 房屋详情的路由规则 */}
+        <Route path='/login' component={Login}/>
       </Switch>
       </div>
       </BrowserRouter>
