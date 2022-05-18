@@ -1,4 +1,9 @@
-# React-HKZF
-React HKZF1.0
-React HKZF2.0
+# React-好客租房项目
 这是一个基于react框架和mysql数据库实现的的租房小程序，所有页面数据来自hkzf-v1，将其导入数据库后即可正常使用
+## 技术点：
++ 基于creat-react-app脚手架搭建的React 框架
++ 组件部分：Antd-v2组件库
++ 地图部分：（查找房源页面）百度地图API
++ 其他下次再写～最近的git命令还有点不太清晰
+
+
